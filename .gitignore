@@ -1,0 +1,7 @@
+translations
+config.yml
+composer.lock
+vendor
+files/*
+!files/.gitkeep
+.idea

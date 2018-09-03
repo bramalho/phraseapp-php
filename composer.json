@@ -1,0 +1,19 @@
+{
+    "name": "bramalho/phraseapp-php",
+    "description": "PhraseApp PHP",
+    "license": "proprietary",
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "require": {
+        "symfony/console": "^4.1",
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/yaml": "^4.1"
+    },
+    "require-dev": {},
+    "scripts": {
+        "post-install-cmd": [
+            "php -r \"file_exists('translations') || symlink('bin/translations', 'translations');\""
+        ]
+    }
+}
