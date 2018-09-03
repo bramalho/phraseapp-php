@@ -1,0 +1,9 @@
+locales:
+  - name: "pt"
+    id: ""
+    file: "files/pt.php"
+
+phraseapp:
+  url: "https://api.phraseapp.com/api/v2/projects/"
+  project_id: ""
+  access_token: ""
